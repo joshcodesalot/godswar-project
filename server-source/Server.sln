@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameServer", "GameServer\GameServer.vcproj", "{4BFB0588-30B2-4E49-BE31-8AC3C897745F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoginServer", "LoginServer\LoginServer.vcproj", "{E9C99B84-4CEA-4D2F-AB74-BD5D036A8236}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DBServer", "DBServer\DBServer.vcproj", "{CF2B62EC-1F55-4A55-9BB9-708ACA752BC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BFB0588-30B2-4E49-BE31-8AC3C897745F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4BFB0588-30B2-4E49-BE31-8AC3C897745F}.Debug|Win32.Build.0 = Debug|Win32
+		{4BFB0588-30B2-4E49-BE31-8AC3C897745F}.Release|Win32.ActiveCfg = Release|Win32
+		{4BFB0588-30B2-4E49-BE31-8AC3C897745F}.Release|Win32.Build.0 = Release|Win32
+		{E9C99B84-4CEA-4D2F-AB74-BD5D036A8236}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E9C99B84-4CEA-4D2F-AB74-BD5D036A8236}.Debug|Win32.Build.0 = Debug|Win32
+		{E9C99B84-4CEA-4D2F-AB74-BD5D036A8236}.Release|Win32.ActiveCfg = Release|Win32
+		{E9C99B84-4CEA-4D2F-AB74-BD5D036A8236}.Release|Win32.Build.0 = Release|Win32
+		{CF2B62EC-1F55-4A55-9BB9-708ACA752BC4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF2B62EC-1F55-4A55-9BB9-708ACA752BC4}.Debug|Win32.Build.0 = Debug|Win32
+		{CF2B62EC-1F55-4A55-9BB9-708ACA752BC4}.Release|Win32.ActiveCfg = Release|Win32
+		{CF2B62EC-1F55-4A55-9BB9-708ACA752BC4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 6
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DBServer\\DBServer.vcproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = DBServer\\
+		SccProjectUniqueName2 = GameServer\\GameServer.vcproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = GameServer\\
+		SccProjectUniqueName3 = GMServer\\GMServer.vcproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = GMServer\\
+		SccProjectUniqueName4 = LoginServer\\LoginServer.vcproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = LoginServer\\
+		SccProjectUniqueName5 = PipeRouterServer\\PipeRouterServer.vcproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = PipeRouterServer\\
+	EndGlobalSection
+EndGlobal

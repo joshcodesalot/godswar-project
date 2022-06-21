@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[GameServer.vcproj]
+SCC_Aux_Path = "\\192.168.6.68\GodsWar"
+SCC_Project_Name = "$/GodsWar/Server/GameServer", GPBBAAAA
