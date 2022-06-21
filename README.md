@@ -14,3 +14,4 @@
 - Godswar Client - version 10262
 - Visual Studio - version 2005
 - Python - version 2.7
+- MySQL - version 5.1
