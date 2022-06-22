@@ -1,10 +1,13 @@
 .vs
 .idea
-.rar
-.zip
+*.vs
+*.idea
+*.rar
+*.zip
 *.user
 *.ncb
 *.pdb
+*.exe
 
 
 server-source/Common/Include/PyScript/Release/*
