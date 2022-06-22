@@ -1,9 +1,9 @@
 #ifndef _SCRIPTSYSTEM_H_
 #define _SCRIPTSYSTEM_H_
 
-#include "./python/include/Python.h"
-#include "./python/include/structmember.h"
-#include "./python/include/object.h"
+#include "Python.h"
+#include "structmember.h"
+#include "object.h"
 
 #include <map>
 #include <string>
@@ -31,7 +31,6 @@ public:
 
 	PyObject* Reload(const char* name);
 
-protected:
 private:
 
 	static ScriptSystem* m_This;
