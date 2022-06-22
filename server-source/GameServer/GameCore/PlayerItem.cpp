@@ -1209,8 +1209,9 @@ bool CPlayer::MoveEquip(int index, int indexaim, int numaim)
 	msg_move_item.NumAim = numaim;
 
 	GetRegion()->SendAreaMsgOneToOther(GetCurrentCell(), &msg_move_item);
-	//TODO
-	s_World->SendMsgToClient(&msg_move_item, GetSocket());
+
+	//TODO: Reverse Code 
+	// s_World->SendMsgToClient(&msg_move_item, GetSocket());
 
 	return true;
 }
