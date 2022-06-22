@@ -128,7 +128,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="&quot;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\Include&quot;;&quot;C:\Users\SLD\Desktop\GODSWAR\Server Files (Source)\Common\SDK\MySQL\include&quot;;&quot;C:\Users\SLD\Desktop\GODSWAR\Server Files (Source)\Common\SDK\python\include&quot;"
+				AdditionalIncludeDirectories="&quot;C:\Program Files (x86)\Microsoft Visual Studio 8\SDK\v2.0\Include&quot;;..\Common\SDK\MySQL\include;..\Common\SDK\python27\include;..\Common\Toolkit"
 				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
 				RuntimeLibrary="0"
 				UsePrecompiledHeader="2"
@@ -148,10 +148,10 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="&quot;C:\Users\SLD\Desktop\GODSWAR\Server Files (Source)\Common\SDK\MySQL\lib\opt\libmysql.lib&quot; &quot;C:\Users\SLD\Desktop\GODSWAR\Server Files (Source)\Common\SDK\python\libs\python25.lib&quot;"
+				AdditionalDependencies="libmysql.lib python27.lib"
 				OutputFile="..\Run\GameServer\GameServer.exe"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="../Lib_Script/python/libs;"
+				AdditionalLibraryDirectories="..\Common\SDK\MySQL\lib\opt;..\Common\SDK\python27\libs"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(ConfigurationName)\GameServer.pdb"
 				SubSystem="1"

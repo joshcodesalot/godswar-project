@@ -123,8 +123,8 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="..\Server\lib\Release\PyScript.lib"
-				AdditionalLibraryDirectories="./python/libs"
+				OutputFile="..\..\lib\Release\PyScript.lib"
+				AdditionalLibraryDirectories="..\..\SDK\python27\libs"
 			/>
 			<Tool
 				Name="VCALinkTool"

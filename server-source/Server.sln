@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoginServer", "LoginServer\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DBServer", "DBServer\DBServer.vcproj", "{CF2B62EC-1F55-4A55-9BB9-708ACA752BC4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PyScript", "Common\Include\PyScript\PyScript.vcproj", "{6C3966D0-1993-471A-9F8B-47B7293697ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +27,10 @@ Global
 		{CF2B62EC-1F55-4A55-9BB9-708ACA752BC4}.Debug|Win32.Build.0 = Debug|Win32
 		{CF2B62EC-1F55-4A55-9BB9-708ACA752BC4}.Release|Win32.ActiveCfg = Release|Win32
 		{CF2B62EC-1F55-4A55-9BB9-708ACA752BC4}.Release|Win32.Build.0 = Release|Win32
+		{6C3966D0-1993-471A-9F8B-47B7293697ED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C3966D0-1993-471A-9F8B-47B7293697ED}.Debug|Win32.Build.0 = Debug|Win32
+		{6C3966D0-1993-471A-9F8B-47B7293697ED}.Release|Win32.ActiveCfg = Release|Win32
+		{6C3966D0-1993-471A-9F8B-47B7293697ED}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
